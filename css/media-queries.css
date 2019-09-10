@@ -55,8 +55,10 @@
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #about .contact-details { width: 100%; }
+   #about .download { 
+      width: 50%;
+    }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -218,9 +220,9 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
    #about .download .button {
-      width: 100%;
       text-align: center;
       padding: 15px 20px;
+      bottom: 0;
    }
    #about .main-col { padding-right: 30px; }
 
@@ -271,12 +273,13 @@
    #testimonials h1 span { display: block; }
    #testimonials .header-col h1:before { content: none; }
    #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
+  
+    {
       font-size: 20px;
       line-height: 42px; 
-	  color: #000000 !important
-	  ;
    }
+
+
 
    /* Control Nav */
    .flex-control-nav {
